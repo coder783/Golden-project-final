@@ -1,5 +1,6 @@
 class Form{
     constructor(){
+        touches=[];
        this.image1 = loadImage("images/player10.png");
        this.image2 = loadImage("images/masked_player0.png");
        this.image3 = loadImage("images/car2.png");
